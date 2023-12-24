@@ -12,10 +12,22 @@ h1{
    font-family:'Rubik Doodle Shadow', sans-serif;
 }
 
+.right{
+    margin: 0% 50% 0% 1%;
+    text-align: justify;
+}
+.left{
+    margin: 0% 1% 0% 50%;
+    text-align: justify;
+}
 .sel{
     font-size: 1em;
     font-family: 'Courier New', Courier, monospace;
     
+}
+
+.lists{
+    margin: 2% 20% 2% 20%;
 }
 #id{
     color: #607274;
