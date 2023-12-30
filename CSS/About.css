@@ -4,11 +4,26 @@ img{
     top: 4px;
   }
 body{
-    background-color: antiquewhite;
+    background-color: #E5E1DA;
 }
+/* Media queries to change background colour when screen size changes*/
 @media (min-width:319px) and (max-width:480px)
 {
     body{
-        background-color: aqua;
+        background-color: #92C7CF;
+    }
+}
+
+@media (min-width:481px) and (max-width:1200px)
+{
+    body{
+        background-color: #AAD7D9;
+    }
+}
+
+@media (min-width:1601px)
+{
+    body{
+        background-color: #FBF9F1;
     }
 }
