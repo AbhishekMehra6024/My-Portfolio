@@ -1,10 +1,9 @@
+/* ALL Selector*/
 *{
     text-align: center;
     background-color:#B2A59B;
 }
-p{
-    text-align: left;
-}
+/*Element selector*/
 h1{
    color:#607274;
    background-color: #DED0B6;
@@ -25,20 +24,37 @@ h1{
     font-family: 'Courier New', Courier, monospace;
     
 }
-
+/* Class selector*/
 .lists{
     margin: 2% 20% 2% 20%;
 }
+
+/* ID selector*/
 #id{
     color: #607274;
 }
+/* Attribute slector in Group Rule*/
 a[draggable="true"],li[draggable="true"]{
     color: #FAEED1;
 }
+/* Group Rule*/
 ol,ul{
     margin-left: -40px;
     margin-top: -20px;
     list-style-position: inside;
 }
+/* Child Rule*/
+ol[start]>li{
+    color: aqua;
+}
+/*descendent Rule*/
+.lists li{
+    color: pink;
+}
 
-
+/* Pin my name*/
+small{
+    position: fixed;
+    left: 20px;
+    top: 95%;
+}
