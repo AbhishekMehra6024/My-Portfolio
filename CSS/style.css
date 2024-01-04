@@ -24,14 +24,23 @@ span{
 }
 /* ID selector*/
 #main-box{
-    display: inline;
+    display: flex;
+    gap: 40px;
+    justify-content: space-around;
+    align-items: start;
 }
-#imgleft{
-    padding: 2em 3em;
-    float: left;
-    display: inline;
+@media (max-width:1250px){
+    #main-box{
+        flex-direction: column;
+    }
 }
-
+#one{
+    align-self:center;
+}
+/* child selector*/
+#main-box>*{
+    flex-basis: 400px;
+}
 .lists{
     clear: both;
     padding-left: 2.5em;
