@@ -25,7 +25,7 @@ span{
 /* ID selector*/
 #main-box{
     display: flex;
-    gap: 40px;
+    gap: 10px;
     justify-content: space-around;
     align-items: start;
 }
@@ -39,7 +39,7 @@ span{
 }
 /* child selector*/
 #main-box>*{
-    flex-basis: 400px;
+    flex-basis: 500px;
 }
 .lists{
     clear: both;
@@ -67,4 +67,25 @@ small{
     position: fixed;
     left: 20px;
     top: 95%;
+}
+
+
+/* .......................................*/
+
+#Games{
+    display: flex;
+    gap: 20px;
+    justify-content:space-around;   
+}
+.card{
+    padding: 0rem 3rem;
+}
+.button{
+    text-align: center;
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #3498db; /* Set your desired background color */
+    color: #ffffff; 
+    margin-top: 1em;
 }
